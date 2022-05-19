@@ -3,7 +3,7 @@ Ako ročníkový projekt som vypracovala stránku, ktorá funguje na princípe h
 
 ### Ponuka
 ------
-Na stránke sa dajú pozrieť ponúkané izby spolu s počtom osôb cenou za noc, či rôznymi inými kritériami (wifi, balkón, kúpeľňa).
+Na stránke sa dajú pozrieť ponúkané izby spolu s počtom osôb, cenou za noc, či rôznymi inými kritériami (wifi, balkón, kúpeľňa).
 
 ### Rezervácia
  ------
