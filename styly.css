@@ -1,0 +1,9 @@
+.gallery-image{
+	max-height: 136px;
+    min-height: 136px;
+	max-width: 136px;
+    min-width: 136px;
+}
+input.form-control.js-flatpickr[readonly=readonly], input.form-control.js-flatpickr[readonly] {
+    background-color: #fff!important;
+}
