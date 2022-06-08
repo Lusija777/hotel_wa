@@ -22,17 +22,17 @@ include('nav.php');
 		</div>
 		<div class="col-6">
 			<div class="lightgallery">
-				<a href="/projekt/obrazky/i1.jpg" style="text-decoration: none;">
-					<img width="300" height="100" class="img-thumbnail gallery-image" alt="Apartmány Liliana" src="/projekt/obrazky/i1.jpg"/>
+				<a href="obrazky/i1.jpg" style="text-decoration: none;">
+					<img width="300" height="100" class="img-thumbnail gallery-image" alt="Apartmány Liliana" src="obrazky/i1.jpg"/>
 				</a>
-				<a href="/projekt/obrazky/i2.jpg" style="text-decoration: none;">
-					<img width="300" height="100" class="img-thumbnail gallery-image" alt="Apartmány Liliana" src="/projekt/obrazky/i2.jpg"/>
+				<a href="obrazky/i2.jpg" style="text-decoration: none;">
+					<img width="300" height="100" class="img-thumbnail gallery-image" alt="Apartmány Liliana" src="obrazky/i2.jpg"/>
 				</a>
-				<a href="/projekt/obrazky/i3.jpg" style="text-decoration: none;">
-					<img width="300" height="100" class="img-thumbnail gallery-image" alt="Apartmány Liliana" src="/projekt/obrazky/i3.jpg"/>
+				<a href="obrazky/i3.jpg" style="text-decoration: none;">
+					<img width="300" height="100" class="img-thumbnail gallery-image" alt="Apartmány Liliana" src="obrazky/i3.jpg"/>
 				</a>
-				<a href="/projekt/obrazky/i4.jpg" style="text-decoration: none;">
-					<img width="300" height="100" class="img-thumbnail gallery-image" alt="Apartmány Liliana" src="/projekt/obrazky/i4.jpg"/>
+				<a href="obrazky/i4.jpg" style="text-decoration: none;">
+					<img width="300" height="100" class="img-thumbnail gallery-image" alt="Apartmány Liliana" src="obrazky/i4.jpg"/>
 				</a>
 			</div>
 		</div>

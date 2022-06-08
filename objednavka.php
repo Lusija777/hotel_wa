@@ -5,7 +5,7 @@ include('database.php');
 $title = 'Objednávka';
 include('funkcie_vseobecne.php');
 include('funkcie.php');
-$user = find_user_from_session($mysqli, '/projekt/rezervacia.php');
+$user = find_user_from_session($mysqli, 'rezervacia.php');
 
 $hack = false;
 $room_id = (int)load_from_get('room_id');
@@ -52,7 +52,7 @@ include('nav.php');
 		}
 		else {
 			if (true == check_if_order_exists($mysqli, $room_id, $daterange[0], $daterange[1])){
-				redirect(sprintf('/projekt/rezervacia.php?message=occupied&daterange=%s+do+%s&number_of_people=%d',$daterange[0],$daterange[1], $number_of_people));
+				redirect(sprintf('rezervacia.php?message=occupied&daterange=%s+do+%s&number_of_people=%d',$daterange[0],$daterange[1], $number_of_people));
 			}
 			else {
 				?>

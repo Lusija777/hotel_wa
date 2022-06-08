@@ -9,6 +9,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.4.0/css/lg-thumbnail.min.css" integrity="sha512-GRxDpj/bx6/I4y6h2LE5rbGaqRcbTu4dYhaTewlS8Nh9hm/akYprvOTZD7GR+FRCALiKfe8u1gjvWEEGEtoR6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.11/flatpickr.min.css" integrity="sha512-MQXduO8IQnJVq1qmySpN87QQkiR1bZHtorbJBD0tzy7/0U9+YIC93QWHeGTEoojMVHWWNkoCp8V6OzVSYrX0oQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.11/themes/airbnb.min.css" integrity="sha512-i9p9BC9RqEkrJuKjdOJE3SWMEi+vHVJgchPBTDGExPzbNk+Uq91WFz0qfW1xIKoefc7hOjcgW+FdQ0Oajx3IHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="/projekt/styly.css" rel="stylesheet">
+<link href="styly.css" rel="stylesheet">
 </head>
 <body>

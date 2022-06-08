@@ -51,9 +51,9 @@ if (isset($_GET['number_of_people'], $_GET['daterange'])) {
 			}
 	}
 	if (isset($_GET['number_of_people'], $_GET['daterange']) && !isset($_SESSION['user'])){
-		$_SESSION['targetPath'] = sprintf('/projekt/rezervacia.php?daterange=%s+do+%s&number_of_people=%d',$daterange[0],$daterange[1], $number_of_people);
+		$_SESSION['targetPath'] = sprintf('rezervacia.php?daterange=%s+do+%s&number_of_people=%d',$daterange[0],$daterange[1], $number_of_people);
 		$_SESSION['mistake'] = $mistake;
-		redirect('/projekt/login.php');
+		redirect('login.php');
 	}
 	if (false === $hack) {
 		$available_rooms = find_available_rooms($mysqli, $daterange, $number_of_people);

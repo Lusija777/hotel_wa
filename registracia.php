@@ -15,10 +15,10 @@ if ($user != null) {
 		redirect($_SESSION['targetPath']);
 	}
 	if($user['role'] == 'admin'){
-		redirect('/projekt/admin/admin.php');
+		redirect('admin.php');
 	}
 	else if ($user['role'] == 'user'){
-		redirect('/projekt/user/user.php');
+		redirect('user.php');
 	}
 }
 else {
@@ -87,7 +87,7 @@ $email_in_database = false;
 		// pridat do clientov a userov
 		$user_id = add_to_users($mysqli, $name, $last_name, $street, $house_number, $city, $psc, $email, $mobile, $password);
 		$_SESSION['user'] = $user_id;
-		redirect($_SESSION['targetPath'] ?? '/projekt/user/user.php');
+		redirect($_SESSION['targetPath'] ?? 'user.php');
 	}
 	else{ // k method post <?php if(isset($_POST['odosli'])) {echo 'class="was-validated"';}?>
 		<div class="row">

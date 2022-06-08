@@ -14,10 +14,10 @@ if ($user != null) {
 		redirect($_SESSION['targetPath']);
 	}
 	if($user['role'] == 'admin'){
-		redirect('/projekt/admin/admin.php');
+		redirect('admin.php');
 	}
 	else if ($user['role'] == 'user'){
-		redirect('/projekt/user/user.php');
+		redirect('user.php');
 	}
 }
 else {
@@ -48,11 +48,11 @@ include('nav.php');
 		}
 		else if ($user['role'] === 'admin'){
 			$_SESSION['user'] = $user['id'];
-			redirect($_SESSION['targetPath'] ?? '/projekt/admin/admin.php');
+			redirect($_SESSION['targetPath'] ?? 'admin.php');
 		}
 		else if ($user['role'] === 'user'){
 			$_SESSION['user'] = $user['id'];
-			redirect($_SESSION['targetPath'] ?? '/projekt/user/user.php');
+			redirect($_SESSION['targetPath'] ?? 'user.php');
 			
 		}
 	}
@@ -70,7 +70,7 @@ include('nav.php');
 		<button type="submit" name="prihlas" class="btn btn-primary">Prihlás sa</button>
 	</form>
 	<hr>
-	<a href="/projekt/registracia.php">Zaregistuj sa</a>
+	<a href="registracia.php">Zaregistuj sa</a>
 	</section>
 </div>
 <?php include('pata.php'); }?>

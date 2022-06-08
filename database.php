@@ -7,4 +7,4 @@ if ($mysqli->connect_errno) {
 	$mysqli->query("SET CHARACTER SET 'utf8'");
 }
 
-?>
+?> 

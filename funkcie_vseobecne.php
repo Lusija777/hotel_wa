@@ -95,7 +95,7 @@ function find_user_from_session($mysqli, $targetPath, $expectedRole = null) {
 	}
 	if ($user === null) {
 		if (null === $targetPath) {
-			$targetPath = '/projekt/login.php';
+			$targetPath = 'login.php';
 		}
 		redirect($targetPath);
 	}
@@ -103,10 +103,10 @@ function find_user_from_session($mysqli, $targetPath, $expectedRole = null) {
 	if (null !== $expectedRole) {
 		if ($user['role'] !== $expectedRole) {
 			if ($user['role'] === 'user') {
-				redirect('/projekt/user/user.php');
+				redirect('user.php');
 			}
 			if ($user['role'] === 'admin') {
-				redirect('/projekt/admin/admin.php');
+				redirect('admin.php');
 			}
 		}
 	}

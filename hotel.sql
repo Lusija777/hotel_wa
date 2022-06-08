@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hostiteľ: 127.0.0.1
--- Čas generovania: So 14.Máj 2022, 14:03
+-- Čas generovania: St 08.Jún 2022, 19:36
 -- Verzia serveru: 10.4.22-MariaDB
 -- Verzia PHP: 8.1.2
 
@@ -48,8 +48,7 @@ INSERT INTO `order` (`id`, `user_id`, `room_id`, `number_of_people`, `from`, `to
 (5, 3, 6, 5, '2022-06-22', '2022-06-29', '413.00'),
 (6, 8, 8, 4, '2022-06-21', '2022-06-28', '546.00'),
 (7, 9, 8, 4, '2022-06-18', '2022-06-29', '858.00'),
-(9, 2, 5, 4, '2022-06-26', '2022-06-29', '177.00'),
-(11, 2, 1, 1, '2022-07-15', '2022-07-16', '46.00');
+(9, 2, 5, 4, '2022-06-26', '2022-06-29', '177.00');
 
 -- --------------------------------------------------------
 
@@ -68,37 +67,37 @@ CREATE TABLE `photo` (
 --
 
 INSERT INTO `photo` (`id`, `room_id`, `path`) VALUES
-(1, 1, '/obrazky/ob1.jpg'),
-(2, 2, '/obrazky/ob2.jpg'),
-(3, 3, '/obrazky/ob3.jpg'),
-(4, 4, '/obrazky/ob4.jpg'),
-(5, 5, '/obrazky/ob5.jpg'),
-(6, 6, '/obrazky/ob6.jpg'),
-(7, 7, '/obrazky/ob7.jpg'),
-(8, 8, '/obrazky/ob8.jpg'),
-(9, 9, '/obrazky/ob9.jpg'),
-(11, 1, '/obrazky/ob11.jpg'),
-(12, 1, '/obrazky/ob12.jpg'),
-(13, 2, '/obrazky/ob13.jpg'),
-(14, 2, '/obrazky/ob14.jpg'),
-(15, 4, '/obrazky/ob15.jpg'),
-(16, 4, '/obrazky/ob16.jpg'),
-(17, 4, '/obrazky/ob17.jpg'),
-(18, 3, '/obrazky/ob18.jpg'),
-(19, 3, '/obrazky/ob19.jpg'),
-(20, 3, '/obrazky/ob20.jpg'),
-(21, 7, '/obrazky/ob21.jpg'),
-(22, 7, '/obrazky/ob22.jpg'),
-(23, 7, '/obrazky/ob23.jpg'),
-(24, 6, '/obrazky/ob24.jpg'),
-(25, 6, '/obrazky/ob25.jpg'),
-(26, 6, '/obrazky/ob26.jpg'),
-(27, 5, '/obrazky/ob27.jpg'),
-(28, 5, '/obrazky/ob28.jpg'),
-(29, 5, '/obrazky/ob29.jpg'),
-(30, 9, '/obrazky/ob30.jpg'),
-(31, 9, '/obrazky/ob31.jpg'),
-(32, 9, '/obrazky/ob32.jpg');
+(1, 1, 'obrazky/ob1.jpg'),
+(2, 2, 'obrazky/ob2.jpg'),
+(3, 3, 'obrazky/ob3.jpg'),
+(4, 4, 'obrazky/ob4.jpg'),
+(5, 5, 'obrazky/ob5.jpg'),
+(6, 6, 'obrazky/ob6.jpg'),
+(7, 7, 'obrazky/ob7.jpg'),
+(8, 8, 'obrazky/ob8.jpg'),
+(9, 9, 'obrazky/ob9.jpg'),
+(11, 1, 'obrazky/ob11.jpg'),
+(12, 1, 'obrazky/ob12.jpg'),
+(13, 2, 'obrazky/ob13.jpg'),
+(14, 2, 'obrazky/ob14.jpg'),
+(15, 4, 'obrazky/ob15.jpg'),
+(16, 4, 'obrazky/ob16.jpg'),
+(17, 4, 'obrazky/ob17.jpg'),
+(18, 3, 'obrazky/ob18.jpg'),
+(19, 3, 'obrazky/ob19.jpg'),
+(20, 3, 'obrazky/ob20.jpg'),
+(21, 7, 'obrazky/ob21.jpg'),
+(22, 7, 'obrazky/ob22.jpg'),
+(23, 7, 'obrazky/ob23.jpg'),
+(24, 6, 'obrazky/ob24.jpg'),
+(25, 6, 'obrazky/ob25.jpg'),
+(26, 6, 'obrazky/ob26.jpg'),
+(27, 5, 'obrazky/ob27.jpg'),
+(28, 5, 'obrazky/ob28.jpg'),
+(29, 5, 'obrazky/ob29.jpg'),
+(30, 9, 'obrazky/ob30.jpg'),
+(31, 9, 'obrazky/ob31.jpg'),
+(32, 9, 'obrazky/ob32.jpg');
 
 -- --------------------------------------------------------
 
