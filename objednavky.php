@@ -25,7 +25,7 @@ $page = (int)load_from_get('page');
 		</div>
 		<div class="col-10">
 			<?php
-			if ($page > 0) {
+			if ($page > 0 && $page == load_from_get('page')) {
 				?>
 				<div>Všetky objednávky:</div>
 				<?php

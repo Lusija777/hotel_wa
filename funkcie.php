@@ -217,7 +217,7 @@ function all_orders($mysqli, $page, $limit, $admin, $id = null) { // vypise vset
 			</tr>
 		<?php
 		while ($row = $result->fetch_assoc()) {
-			if ($row['role'] != 'admin'){
+			
 				?>
 				<tr>
 				  <td><?= $row['id'];?></td>
@@ -240,7 +240,7 @@ function all_orders($mysqli, $page, $limit, $admin, $id = null) { // vypise vset
 				  <?php }?>
 				  
 				</tr>
-			<?php }
+			<?php 
 		}?>
 		</table>
 	</div>
